@@ -54,15 +54,15 @@ const Details = () => {
       }}
       className="relative text-white flex  flex-row items-end  "
     >
-      <div className="container mx-auto grid  grid-cols-3 gap-2 mt-10  w-full justify-center ">
+      <div className="container mx-auto grid  grid-cols-1 lg:grid-cols-3 gap-2 lg:mt-10 lg:w-full justify-center ">
         {cards.map((card) => (
-          <div className="relative flex flex-col bg-slate-800 items-center lg:flex-row scroll-mb-10 overflow-hidden  p-10 rounded-lg transition-all duration-1000 ease-in-out hover:text-white bottom-0">
-            <p className=" text-6xl  bg-slate-300 rounded-full p-3 my-2">
+          <div className="relative flex flex-row justify-around  bg-slate-800 items-center lg:flex-row scroll-mb-10 overflow-hidden  py-5 lg:p-10 rounded-lg  bottom-0">
+            <p className=" text-2xl lg:text-6xl bg-slate-300 rounded-full p-3">
               {card.icon}
             </p>
            <div>
-           <p className="text-2xl font-semibold py-2">{card.number}+{card.text} </p>
-            <p className="text-4xl">{card.title}</p>
+           <p className="text-2xl font-semibold">{card.number}+{card.text} </p>
+            <p className="text-3xl lg:text-4xl">{card.title}</p>
            </div>
           </div>
         ))}
