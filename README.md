@@ -1,2 +1,3 @@
-Md. Raihan Uddin Tuhin 
-Bank and Fiannce templete make React and Tailwind
+# ZenUI Library Template
+
+- visit our website to get more components and templates http://zenui-library.com
